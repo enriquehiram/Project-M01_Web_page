@@ -2,25 +2,24 @@
 
 *{
     margin: 0;
-    font-family: 'Roboto'; sans-serif; 
+    font-family: 'Roboto'; 
 }
 
 .header{
-    background-color: aqua;
-    position: fixed;
-    /*display: inline;*/
-    /*padding: 10px;*/
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
 }
 
 .logo{
-    width: 2.5%;
-    height:2.5%;
+    width: 30px;
+    height:30px;
     object-fit: cover;
-    display: inline-block;
-    /* indispensable usar position relative para que se quede fijo*
-    position: relative;*/
-    margin-right: 25px;
-    background-position: bottom;
 }
 
 button{
@@ -30,32 +29,24 @@ button{
     width: 45px;
     height: 30px;
     border-radius: 20px;
-    margin-right: 5px;
-    display: inline-block;
 }
 
 .crear_idea{
     background-color: white;
-    width: 60px;
+    width: 55px;
     height: 30px;
     border-radius: 20px;
-    border: none;
-    margin-right: 20px;
-    display: inline-block;
 }
 
 form{
-    display: inline-block;
-    /*position: fixed;*/
-    background-color: rgb(58, 56, 56);
-    width: 40rem;
-    height: 3rem;
+    background-color: gray;
     border-radius: 20px;
     border: none;
-    margin-right: 25px;
-    margin-left: 25px;
-    text-align: match-parent;
+    width: 400px;
+    height: 30px;
+    align-items: center;
 }
+
 
 .configuracion{
     background-color: white;
@@ -63,11 +54,7 @@ form{
     height: 30px;
     border-radius: 20px;
     border: none;
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    margin-right: 25px;
+    /*margin-right: 20px;*/
 }
 
 
